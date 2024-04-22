@@ -4,7 +4,9 @@ Wrongfully extracted items can not be recovered!
 In case you want to compile it yourself into an .exe file:
 
 -Install Python on your system: https://www.geeksforgeeks.org/how-to-install-python-on-windows/
+
 -Convert a Python Script to an executable file: https://www.geeksforgeeks.org/convert-python-script-to-exe-file/
+
 
 
 General Info:
@@ -18,3 +20,5 @@ Now you need to chose an extract key which will trigger the extraction. Currentl
 When every prior steps are done you can click "Enable Extraction" and the application will wait for your keypress of the selected key
 
 Now if you want to extract a page of items, just start the "item extraction mode" in your inventory and then click the assigned button and it will select all items on this page you are currently on. 
+
+If you have any questions or need assistance contact me on Discord.
