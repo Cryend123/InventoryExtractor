@@ -161,11 +161,11 @@ class GUI():
         self.btn_select_inventory = tk.Button(self.root, text=f"Select Inventory Size (Currently: {self.mousemovement.top_left}:{self.mousemovement.bottom_right})", command=self.select_inventory_size)
         self.btn_select_inventory.pack(pady=10)
 
-        self.btn_enable_extraction = tk.Button(self.root, state="disabled", text="Enable Extraction", command=self.enable_extraction)
-        self.btn_enable_extraction.pack(pady=10)
-
         self.btn_set_extract_key = tk.Button(self.root, text="Set Extract Key", command=self.set_extract_hotkey)
         self.btn_set_extract_key.pack(pady=10)
+        
+        self.btn_enable_extraction = tk.Button(self.root, state="disabled", text="Enable Extraction", command=self.enable_extraction)
+        self.btn_enable_extraction.pack(pady=10)
 
         self.status_bar = tk.Label(self.root, text="", bd=1, relief=tk.SUNKEN, anchor=tk.W)
         self.status_bar.pack(side=tk.BOTTOM, fill=tk.X)
